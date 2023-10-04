@@ -31,21 +31,29 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtTenKhach = new System.Windows.Forms.TextBox();
+            this.txtSoKhachHang = new System.Windows.Forms.TextBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.rdi_CFSua = new System.Windows.Forms.RadioButton();
-            this.rdi_CFDa = new System.Windows.Forms.RadioButton();
             this.rdi_CFKem = new System.Windows.Forms.RadioButton();
+            this.rdi_CFDa = new System.Windows.Forms.RadioButton();
             this.rdi_CFSDa = new System.Windows.Forms.RadioButton();
+            this.rdi_CFSua = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rdoMyCay = new System.Windows.Forms.RadioButton();
             this.rdoMyBo = new System.Windows.Forms.RadioButton();
             this.rdoMyTomTrung = new System.Windows.Forms.RadioButton();
             this.rdoBanhMyCa = new System.Windows.Forms.RadioButton();
             this.rdoBanhMi = new System.Windows.Forms.RadioButton();
+            this.btnTinhTien = new System.Windows.Forms.Button();
+            this.btnNhapLai = new System.Windows.Forms.Button();
+            this.btnThanhToan = new System.Windows.Forms.Button();
+            this.btnThoat = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtTongTien = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -76,25 +84,25 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(64, 90);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(175, 25);
+            this.label3.Size = new System.Drawing.Size(164, 25);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Ten Khach Hang";
+            this.label3.Text = "So Khach Hang";
             // 
-            // textBox1
+            // txtTenKhach
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(267, 51);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(304, 30);
-            this.textBox1.TabIndex = 2;
+            this.txtTenKhach.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenKhach.Location = new System.Drawing.Point(267, 51);
+            this.txtTenKhach.Name = "txtTenKhach";
+            this.txtTenKhach.Size = new System.Drawing.Size(304, 30);
+            this.txtTenKhach.TabIndex = 2;
             // 
-            // textBox2
+            // txtSoKhachHang
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(267, 90);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(304, 30);
-            this.textBox2.TabIndex = 2;
+            this.txtSoKhachHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoKhachHang.Location = new System.Drawing.Point(267, 90);
+            this.txtSoKhachHang.Name = "txtSoKhachHang";
+            this.txtSoKhachHang.Size = new System.Drawing.Size(304, 30);
+            this.txtSoKhachHang.TabIndex = 2;
             // 
             // checkBox1
             // 
@@ -117,22 +125,46 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 193);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(285, 302);
+            this.groupBox1.Size = new System.Drawing.Size(285, 164);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Nuoc Uong";
             // 
-            // radioButton1
+            // rdi_CFKem
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(7, 43);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(110, 24);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "CAFE Den";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rdi_CFKem.AutoSize = true;
+            this.rdi_CFKem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdi_CFKem.Location = new System.Drawing.Point(170, 73);
+            this.rdi_CFKem.Name = "rdi_CFKem";
+            this.rdi_CFKem.Size = new System.Drawing.Size(106, 24);
+            this.rdi_CFKem.TabIndex = 0;
+            this.rdi_CFKem.TabStop = true;
+            this.rdi_CFKem.Text = "CAfe Kem";
+            this.rdi_CFKem.UseVisualStyleBackColor = true;
+            // 
+            // rdi_CFDa
+            // 
+            this.rdi_CFDa.AutoSize = true;
+            this.rdi_CFDa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdi_CFDa.Location = new System.Drawing.Point(170, 43);
+            this.rdi_CFDa.Name = "rdi_CFDa";
+            this.rdi_CFDa.Size = new System.Drawing.Size(101, 24);
+            this.rdi_CFDa.TabIndex = 0;
+            this.rdi_CFDa.TabStop = true;
+            this.rdi_CFDa.Text = "CAFE Da";
+            this.rdi_CFDa.UseVisualStyleBackColor = true;
+            // 
+            // rdi_CFSDa
+            // 
+            this.rdi_CFSDa.AutoSize = true;
+            this.rdi_CFSDa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdi_CFSDa.Location = new System.Drawing.Point(6, 103);
+            this.rdi_CFSDa.Name = "rdi_CFSDa";
+            this.rdi_CFSDa.Size = new System.Drawing.Size(126, 24);
+            this.rdi_CFSDa.TabIndex = 0;
+            this.rdi_CFSDa.TabStop = true;
+            this.rdi_CFSDa.Text = "Cafe Sua Da";
+            this.rdi_CFSDa.UseVisualStyleBackColor = true;
             // 
             // rdi_CFSua
             // 
@@ -148,41 +180,17 @@
             this.rdi_CFSua.UseVisualStyleBackColor = true;
             this.rdi_CFSua.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
-            // rdi_CFDa
+            // radioButton1
             // 
-            this.rdi_CFDa.AutoSize = true;
-            this.rdi_CFDa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdi_CFDa.Location = new System.Drawing.Point(170, 43);
-            this.rdi_CFDa.Name = "rdi_CFDa";
-            this.rdi_CFDa.Size = new System.Drawing.Size(101, 24);
-            this.rdi_CFDa.TabIndex = 0;
-            this.rdi_CFDa.TabStop = true;
-            this.rdi_CFDa.Text = "CAFE Da";
-            this.rdi_CFDa.UseVisualStyleBackColor = true;
-            // 
-            // rdi_CFKem
-            // 
-            this.rdi_CFKem.AutoSize = true;
-            this.rdi_CFKem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdi_CFKem.Location = new System.Drawing.Point(170, 73);
-            this.rdi_CFKem.Name = "rdi_CFKem";
-            this.rdi_CFKem.Size = new System.Drawing.Size(106, 24);
-            this.rdi_CFKem.TabIndex = 0;
-            this.rdi_CFKem.TabStop = true;
-            this.rdi_CFKem.Text = "CAfe Kem";
-            this.rdi_CFKem.UseVisualStyleBackColor = true;
-            // 
-            // rdi_CFSDa
-            // 
-            this.rdi_CFSDa.AutoSize = true;
-            this.rdi_CFSDa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdi_CFSDa.Location = new System.Drawing.Point(6, 103);
-            this.rdi_CFSDa.Name = "rdi_CFSDa";
-            this.rdi_CFSDa.Size = new System.Drawing.Size(126, 24);
-            this.rdi_CFSDa.TabIndex = 0;
-            this.rdi_CFSDa.TabStop = true;
-            this.rdi_CFSDa.Text = "Cafe Sua Da";
-            this.rdi_CFSDa.UseVisualStyleBackColor = true;
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Location = new System.Drawing.Point(7, 43);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(110, 24);
+            this.radioButton1.TabIndex = 0;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "CAFE Den";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -194,7 +202,7 @@
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(319, 193);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(306, 302);
+            this.groupBox2.Size = new System.Drawing.Size(272, 164);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thuc An";
@@ -259,21 +267,106 @@
             this.rdoBanhMi.Text = "Banh Mi TRrung";
             this.rdoBanhMi.UseVisualStyleBackColor = true;
             // 
+            // btnTinhTien
+            // 
+            this.btnTinhTien.Location = new System.Drawing.Point(22, 388);
+            this.btnTinhTien.Name = "btnTinhTien";
+            this.btnTinhTien.Size = new System.Drawing.Size(126, 44);
+            this.btnTinhTien.TabIndex = 1;
+            this.btnTinhTien.Text = "Tinh Tien";
+            this.btnTinhTien.UseVisualStyleBackColor = true;
+            this.btnTinhTien.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnNhapLai
+            // 
+            this.btnNhapLai.Location = new System.Drawing.Point(171, 388);
+            this.btnNhapLai.Name = "btnNhapLai";
+            this.btnNhapLai.Size = new System.Drawing.Size(126, 44);
+            this.btnNhapLai.TabIndex = 1;
+            this.btnNhapLai.Text = "Nhap Lai";
+            this.btnNhapLai.UseVisualStyleBackColor = true;
+            this.btnNhapLai.Click += new System.EventHandler(this.btnNhapLai_Click);
+            // 
+            // btnThanhToan
+            // 
+            this.btnThanhToan.Location = new System.Drawing.Point(314, 388);
+            this.btnThanhToan.Name = "btnThanhToan";
+            this.btnThanhToan.Size = new System.Drawing.Size(126, 44);
+            this.btnThanhToan.TabIndex = 1;
+            this.btnThanhToan.Text = "Thanh Toan";
+            this.btnThanhToan.UseVisualStyleBackColor = true;
+            this.btnThanhToan.Click += new System.EventHandler(this.btnThanhToan_Click);
+            // 
+            // btnThoat
+            // 
+            this.btnThoat.Location = new System.Drawing.Point(465, 388);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(126, 44);
+            this.btnThoat.TabIndex = 1;
+            this.btnThoat.Text = "Thoat";
+            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(65, 480);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(175, 25);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Ten Khach Hang";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(65, 519);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(112, 25);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Tong TIen";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(268, 480);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(304, 30);
+            this.textBox3.TabIndex = 2;
+            // 
+            // txtTongTien
+            // 
+            this.txtTongTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTongTien.Location = new System.Drawing.Point(268, 519);
+            this.txtTongTien.Name = "txtTongTien";
+            this.txtTongTien.Size = new System.Drawing.Size(304, 30);
+            this.txtTongTien.TabIndex = 2;
+            // 
             // f_CafeSinhVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(903, 587);
+            this.ClientSize = new System.Drawing.Size(608, 640);
+            this.Controls.Add(this.btnThoat);
+            this.Controls.Add(this.btnThanhToan);
+            this.Controls.Add(this.btnNhapLai);
+            this.Controls.Add(this.btnTinhTien);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtTongTien);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtSoKhachHang);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.txtTenKhach);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "f_CafeSinhVien";
             this.Text = "f_CafeSinhVien";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.f_CafeSinhVien_FormClosing);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -288,8 +381,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtTenKhach;
+        private System.Windows.Forms.TextBox txtSoKhachHang;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton rdi_CFKem;
@@ -303,5 +396,13 @@
         private System.Windows.Forms.RadioButton rdoMyTomTrung;
         private System.Windows.Forms.RadioButton rdoBanhMyCa;
         private System.Windows.Forms.RadioButton rdoBanhMi;
+        private System.Windows.Forms.Button btnTinhTien;
+        private System.Windows.Forms.Button btnNhapLai;
+        private System.Windows.Forms.Button btnThanhToan;
+        private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtTongTien;
     }
 }

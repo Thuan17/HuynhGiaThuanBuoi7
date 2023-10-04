@@ -1,0 +1,13 @@
+D:\DaiHoc\CongNghe.net\Buoi07\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\DaiHoc\CongNghe.net\Buoi07\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\DaiHoc\CongNghe.net\Buoi07\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\DaiHoc\CongNghe.net\Buoi07\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\DaiHoc\CongNghe.net\Buoi07\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.fGiaiPhuongTrinh.resources
+D:\DaiHoc\CongNghe.net\Buoi07\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\DaiHoc\CongNghe.net\Buoi07\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.f_CafeSinhVien.resources
+D:\DaiHoc\CongNghe.net\Buoi07\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\DaiHoc\CongNghe.net\Buoi07\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\DaiHoc\CongNghe.net\Buoi07\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\DaiHoc\CongNghe.net\Buoi07\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\DaiHoc\CongNghe.net\Buoi07\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\DaiHoc\CongNghe.net\Buoi07\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.TreeView.resources

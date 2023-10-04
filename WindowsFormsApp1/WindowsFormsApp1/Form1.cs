@@ -33,10 +33,10 @@ namespace WindowsFormsApp1
         {
             foreach (Khach kh in khachhang)
             {
-                if (button1.Text == kh.getName())
-                {
-                    label1.Text = kh.getName();
-                }
+            //    if (button1.Text == kh.getName())
+            //    {
+            //        label1.Text = kh.getName();
+            //    }
             
             }
         }

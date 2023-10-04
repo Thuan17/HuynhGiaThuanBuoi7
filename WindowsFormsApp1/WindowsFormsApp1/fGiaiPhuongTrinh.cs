@@ -83,8 +83,13 @@ namespace WindowsFormsApp1
             btn_giai.Enabled = Enable(DSTextBox());
         }
 
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
 
-       // public string Giai_ptb1(float a, float b)
+        }
+
+
+        // public string Giai_ptb1(float a, float b)
         //{
         //    //a = float.Parse(txt_a.Text);
         //    //b = float.Parse(txt_b.Text);
